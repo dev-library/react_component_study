@@ -4,6 +4,9 @@ import YourComponent from './components/study/YourComponent';
 import Say from './components/study/Say';
 import ArrayChange from './components/study/ArrayChange';
 import EventPractice from './components/eventhandling/EventPractice';
+import IterationSample from './components/iteration/IterationSample';
+import IterationSample2 from './components/iteration/IterationSample2';
+import Counter from './components/hooks/Counter';
 
 function App() {
   return (
@@ -17,8 +20,13 @@ function App() {
       <Say msg="안녕하세요" />
       <ArrayChange />*/}
 
-      
-      <EventPractice />
+      {/* 4장까지 완료 */}
+      {/*<EventPractice />*/}
+
+      {/* 6장까지 완료 */}
+      {/* <IterationSample2 /> */}
+
+      <Counter />
     </>
   );
 }
